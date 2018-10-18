@@ -1,0 +1,77 @@
+KLEE: WARNING: undefined reference to function: __xstat64
+KLEE: WARNING: undefined reference to function: fabs
+KLEE: WARNING: undefined reference to function: pow
+KLEE: WARNING: undefined reference to function: sprintf
+KLEE: XQX: start symbolic execution now-------
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 88142352)
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: calling external: __xstat64(1, 94361648, 98648160)
+KLEE: WARNING ONCE: calling external: vprintf(93797584, 98693008)
+KLEE: WARNING ONCE: calling external: sprintf(98768336, 93684688, 98755061, 0)
+KLEE: WARNING ONCE: ioctl: (TCGETS) symbolic file, incomplete model
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 1
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [1].
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 2
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [2].
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 3
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [3].
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 4
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [4].
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 5
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [5].
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 6
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [6].
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 7
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [7].
+KLEE: XQX: state[0] with no seed fork at :
+KLEE: XQX: solver=Unknown in !isSeeding
+KLEE: XQX: solver=Unknown
+KLEE: XQX: forks in state[0]------------------
+KLEE: XQX: forks num = 8
+KLEE: XQX: /home/xqx/data/xqx/projects/klee-test/llvm29-stp-uclibc/klee-uclibc/libc/string/memcmp.c:33 asm:55057
+KLEE: XQX: branch new state [8].
+KLEE: XQX: state[1] terminated
+KLEE: XQX: state[2] terminated
+KLEE: XQX: state[3] terminated
+KLEE: XQX: state[4] terminated
+KLEE: XQX: state[5] terminated
+KLEE: XQX: state[6] terminated
+KLEE: XQX: state[7] terminated
+KLEE: XQX: state[8] terminated
+KLEE: XQX: exit-handle, state[0]
+KLEE: XQX: state[0] terminated

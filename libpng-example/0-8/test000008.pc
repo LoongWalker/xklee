@@ -1,0 +1,11 @@
+array basn0g02.png0[8] : w32 -> w8 = symbolic
+(query [(Eq 137 (Read w8 0 basn0g02.png0))
+        (Eq 80 (Read w8 1 basn0g02.png0))
+        (Eq 78 (Read w8 2 basn0g02.png0))
+        (Eq 71 (Read w8 3 basn0g02.png0))
+        (Eq 13 (Read w8 4 basn0g02.png0))
+        (Eq 10 (Read w8 5 basn0g02.png0))
+        (Eq 26 (Read w8 6 basn0g02.png0))
+        (Eq false
+            (Eq 10 (Read w8 7 basn0g02.png0)))]
+       false)

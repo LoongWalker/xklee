@@ -1,0 +1,11 @@
+KLEE: Added function klee_div_zero_check.
+KLEE: [xqx] Klee usinga 0 seeds : 
+KLEE: ERROR in state[1]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: ERROR in state[2]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: ERROR in state[3]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: ERROR in state[4]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: ERROR in state[5]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: ERROR in state[6]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: ERROR in state[7]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: ERROR in state[8]: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35: longjmp unsupported
+KLEE: BasicBlock minDistToUncovered-----------------

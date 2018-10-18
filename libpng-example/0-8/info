@@ -1,0 +1,18 @@
+/home/xqx/data/xqx/projects/klee-test/xklee-test/concolicfile_build/Debug+Asserts/bin/klee -libc=uclibc --posix-runtime -libz --dump-states-on-halt=false --emit-all-errors --only-output-states-covering-new --output-source=false -write-cov --max-solver-time=20 --patch-crc=false --track-instruction-time --log-func-call=true --output-func-id=true -search=nurs:covnew -watchdog --max-time=600 -xlib --lib-path=/mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/libpng.bca --output-dir=/mnt/kleedata/libpng-test/concolicfile-test/cb-basn/covnew/0-8 /mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/pngtest.bc /tmp/basn/png-format/basn0g02.png -xqx-sym-file /tmp/basn/png-format/basn0g02.png 0 8 2
+PID: 13771
+Started: 2018-08-18 16:36:39
+BEGIN searcher description
+WeightedRandomSearcher::CoveringNew
+END searcher description
+Finished: 2018-08-18 16:37:01
+Elapsed: 00:00:22
+KLEE: done: explored paths = 9
+KLEE: done: avg. constructs per query = 14
+KLEE: done: total queries = 16
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 16
+KLEE: done: query cex = 16
+
+KLEE: done: total instructions = 6856550
+KLEE: done: completed paths = 9
+KLEE: done: generated tests = 9

@@ -1,0 +1,12 @@
+Error: longjmp unsupported
+File: /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c
+Line: 35
+Stack: 
+	#0 00069913 in longjmp (env=98842304, val=1) at /home/xqx/data/xqx/projects/klee-test/xklee-test/klee/runtime/POSIX/illegal.c:35
+	#1 00051405 in png_default_error (png_ptr=98842304, error_message=84084160) at /mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/pngerror.c:296
+	#2 00050967 in png_error (png_ptr=98842304, error_message=84084160) at /mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/pngerror.c:84
+	#3 00005800 in png_read_info (png_ptr=98842304, info_ptr=98934512) at /mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/pngread.c:373
+	#4 00001672 in test_one_file (inname=84090416, outname=78802304) at /mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/pngtest.c:904
+	#5 00002766 in __user_main (argc=7, argv=86709504) at /mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/pngtest.c:1622
+	#6 00055710 in __uClibc_main (main=49718112, argc=7, argv=86709504, app_init=0, app_fini=0, rtld_fini=0, stack_end=0) at /home/xqx/data/xqx/mount/experiment/klee29-test/klee-uclibc/libc/misc/internals/__uClibc_main.c:401
+	#7 00064277 in main (=7, =86709504)

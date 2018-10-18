@@ -1,0 +1,21 @@
+version: 1
+creator: klee
+pid: 1000
+cmd: /mnt/kleedata/libpng-test/llvm-libpng/libpng-1.2.56/pngtest.bc
+
+
+positions: instr line
+event: Icov : CoveredInstructions
+event: Forks : Forks
+event: Ireal : InstructionRealTimes
+event: I : Instructions
+event: UCdist : MinDistToUncovered
+event: Rtime : ResolveTime
+event: States : States
+event: Iuncov : UncoveredInstructions
+event: Q : Queries
+event: Qiv : QueriesInvalid
+event: Qv : QueriesValid
+event: Qtime : QueryTime
+events: Icov Forks Ireal I UCdist Rtime States Iuncov Q Qiv Qv Qtime 
+ob=/mnt/kleedata/libpng-test/concolicfile-test/cb-basn/covnew/0-8/assembly.ll
